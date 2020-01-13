@@ -1,8 +1,57 @@
 * {
-  
+  box-sizing: border-box;
 }
 body {
   width: 100%;
   background-image: url('images/bg.jpg');
   background-size: auto;
+  font-size: 16px;
 }
+nav div.col {
+  margin: 5px;
+  color: white;
+  background-color: #A63634;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.top-image {
+  background-image: url('images/top-image.png');
+  background-position: 0px -120px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 280px;
+  width: 1130px;
+  margin: 0 auto;
+  border: 6pt solid white;
+}
+.top-image-container {
+  background-image: url('images/grid.png');
+  background-position: 0px -120px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 270px;
+  width: 1120px;
+  opacity: .5;
+}
+.skate-article .col {
+  margin: 5px;
+  color: black;
+  background-color: white;
+  text-align: left;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  height: 200px;
+  border: 8pt solid white;
+  padding-bottom: 250px;
+}
+h1 {
+font-size: 24px;
+}
+/* div {
+  background-color: #A63634;
+height: 25px;
+color: white;
+font-size: 16px;
+text-align: center;
+border: 1pt solid white;
+} */
