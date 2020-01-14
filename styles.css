@@ -12,14 +12,16 @@ body {
   font-size: 16px;
 }
 
-nav div.col {
-  margin: 5px;
-  margin-top: 0;
+nav div .col-md {
   color: white;
   background-color: #A63634;
   text-align: center;
   margin-bottom: 10px;
 }
+nav div .col-md:not(:last-child) {
+  margin-right: 10px;
+}
+
 ul {
   padding: none;
   list-style: none;
@@ -33,6 +35,17 @@ font-size: 3em;
 header i {
 width: 50px;
 }
+
+.container {
+  padding: 0px;
+}
+.peralta-logo {
+  position: absolute;
+  height: 225px;
+  width: 415px;
+  right: 960px;
+  bottom: 525px;
+}
 .top-image {
   background-image: url('images/top-image.png');
   background-position: 0px -120px;
@@ -40,50 +53,56 @@ width: 50px;
   background-size: cover;
   width: 100%;
   border: 6pt solid white;
+  margin: 5px;
 }
 .top-image-container {
   background-image: url('images/grid.png');
-  background-position: 0px -120px;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 270px;
+  height: 280px;
   width: 100%;
   opacity: .5;
 }
-.skate-article .col {
-  margin: 5px;
+.skate-article .col-md {
   color: black;
   background-color: white;
   text-align: left;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   border: 8pt solid white;
-  padding-bottom: 25px;
 }
+.skate-article .col-md:not(:last-child) {
+  margin-right: 10px;
+}
+
 h1 {
 font-size: 24px;
 }
 
 .lance-img {
   height: 250px;
-  border: solid 4px white;
+  border: solid 6px white;
   background-image: url('images/sk8er-4.png');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: right;
+  margin-right: 10px;
 }
  .rodney-img {
    height: 250px;
-   border: solid 4px white;
+   border: solid 6px white;
    background-image: url('images/sk8er-3.png');
    background-repeat: no-repeat;
    background-size: cover;
  }
  .tommy-img {
-  height: 500px;
-  border: solid 4px white;
+  height: 510px;
+  border: solid 6px white;
   background-image: url('images/sk8er-2.png');
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 0;
+  margin-left: 10px;
 }
 
 .steve-img {
@@ -91,6 +110,12 @@ height: 250px;
 background-image: url('images/sk8er-1.png');
 background-repeat: no-repeat;
 background-size: cover;
+border: solid 6px white;
+background-position: center;
+margin-top: 10px;
+}
+.skateboarders {
+  margin-bottom: 10px;
 }
 .skateboards {
   width: 100%;
