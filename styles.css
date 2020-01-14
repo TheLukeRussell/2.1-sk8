@@ -58,29 +58,25 @@ header i {
 .container {
   padding: 0px;
 }
-.peralta-logo {
-  position: absolute;
-  height: 225px;
-  width: 415px;
-  right: 970px;
-  bottom: 590px;
-}
-.top-image {
+#carousel {
+  position: relative;
+  height: 20vw;
+  min-height: 300px;
+  overflow: hidden;
   background-image: url('images/top-image.png');
-  background-position: 0px -120px;
   background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  border: 6pt solid white;
-  margin: 5px;
+  background-position: 35% 25%;
+  border: solid 4pt white;
 }
-.top-image-container {
-  background-image: url('images/grid.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 280px;
-  width: 100%;
-  opacity: .5;
+#carousel .grid {
+  opacity: .4;
+}
+#carousel .logo {
+  position: absolute;
+  top: 15%;
+  width: 35%;
+  left: 25px;
+  /* transform: translateY(-50%); */
 }
 .skate-article .col-md {
   color: black;
@@ -93,44 +89,49 @@ header i {
 .skate-article .col-md:not(:last-child) {
   margin-right: 10px;
 }
-
+#news input {
+  border: none;
+  color: #A63634;
+  font-weight: bold;
+}
+#news p {
+  margin-top: 10px;
+  line-height: 25pt;
+}
+time {
+  margin-top: 15px;
+  color: grey;
+}
 h1 {
 font-size: 24px;
 }
 
 .lance-img {
-  height: 250px;
+  height: 200px;
   border: solid 6px white;
-  background-image: url('images/sk8er-4.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: right;
-  margin-right: 10px;
+  overflow: hidden;
+
 }
  .rodney-img {
-   height: 250px;
+   height: 200px;
    border: solid 6px white;
-   background-image: url('images/sk8er-3.png');
-   background-repeat: no-repeat;
-   background-size: cover;
+   overflow: hidden;
+
  }
  .tommy-img {
-  height: 510px;
+  height: 420px;
   border: solid 6px white;
-  background-image: url('images/sk8er-2.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-left: 10px;
+  padding: 0;
+  overflow: hidden;
+  padding-left: 0;
 }
 
 .steve-img {
-height: 250px;
-background-image: url('images/sk8er-1.png');
-background-repeat: no-repeat;
-background-size: cover;
+height: 200px;
 border: solid 6px white;
-background-position: center;
 margin-top: 10px;
+overflow: hidden;
+padding: 0;
 }
 .skateboarders {
   margin-bottom: 10px;
@@ -155,37 +156,26 @@ margin-top: 10px;
 }
 
 .contact-box {
-height: 250px;
-background-color: white;
-position: absolute;
-left: 16%;
-padding: 10px;
-width: 50%;
+  margin-top: 10px;
+  background-color: white;
+  padding: 25px;
+  margin-bottom: 15px;
 }
-.contact-box {
-  width: 67.9%;
-}
-form {
-  position: absolute;
-  left: 70%;
-  bottom: 0%;
-}
-.contact-box article {
-  width: 33%;
-  display: inline-block;
-}
-.contact-box aside {
-  width: 15%;
-  display: inline-block;
-  text-align: center;
+
+.submit {
+  color: white;
+  background-color: #A63634;
 }
 h2 {
   font-size: 24px;
-  margin-top: 10px;
-}
-.contact-box p {
-  line-height: 20pt;
+  margin-bottom: 30px;
 }
 input {
-  margin-bottom: 10px;
+  width: 100%;
+  border: 2pt lightgrey groove;
+}
+.submit {
+  width: 40%;
+  float: right;
+  height: 40px;
 }
