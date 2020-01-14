@@ -93,9 +93,19 @@ background-repeat: no-repeat;
 background-size: cover;
 }
 .skateboards {
+  width: 100%;
   height: 300px;
   background-color: white;
-  float: left;
+}
+.skateboards img {
+  position: absolute;
+  transform: rotate(90deg);
+  top: 120px;
+  right: -70px;
+  height: 65px;
+  width: 250px;
+  text-align: center;
+
 }
 .contact-box {
 height: 250px;
