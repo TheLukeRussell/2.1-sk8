@@ -11,6 +11,34 @@ body {
   background-size: auto;
   font-size: 16px;
 }
+.social-media-header {
+  width: 100%;
+  height: 65px;
+}
+.icons-social {
+text-align: right;
+}
+
+
+.icons-social i {
+  width: 15%;
+  text-align: center;
+  font-size: 3em;
+  margin-top: 10px;
+}
+.icons-social i:not(:last-child) {
+  margin-right: 10px;
+}
+.subscribe i {
+  color: white;
+  font-size: 6px;
+  margin-left: 10px;
+}
+.subscribe {
+  margin-top: 20px;
+  color: white;
+}
+
 
 nav div .col-md {
   color: white;
@@ -22,20 +50,11 @@ nav div .col-md:not(:last-child) {
   margin-right: 10px;
 }
 
-ul {
-  padding: none;
-  list-style: none;
-}
-header li {
-  display: inline-block;
-position: relative;
-left: 75%;
-font-size: 3em;
-}
-header i {
-width: 50px;
-}
 
+header i {
+  font-size: 3em;
+  text-align: right;
+}
 .container {
   padding: 0px;
 }
@@ -43,8 +62,8 @@ width: 50px;
   position: absolute;
   height: 225px;
   width: 415px;
-  right: 960px;
-  bottom: 525px;
+  right: 970px;
+  bottom: 590px;
 }
 .top-image {
   background-image: url('images/top-image.png');
@@ -101,7 +120,6 @@ font-size: 24px;
   background-image: url('images/sk8er-2.png');
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 0;
   margin-left: 10px;
 }
 
@@ -117,21 +135,25 @@ margin-top: 10px;
 .skateboarders {
   margin-bottom: 10px;
 }
+.skateboarder-name {
+  color: white;
+
+}
+
 .skateboards {
-  width: 100%;
   height: 300px;
   background-color: white;
 }
 .skateboards img {
-  position: absolute;
+  /* position: absolute; */
   transform: rotate(90deg);
   top: 120px;
-  right: -70px;
+  right: 370px;
   height: 65px;
   width: 250px;
   text-align: center;
-
 }
+
 .contact-box {
 height: 250px;
 background-color: white;
