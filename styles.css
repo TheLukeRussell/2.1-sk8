@@ -8,15 +8,28 @@ body {
   width: 100%;
   background-image: url('images/bg.jpg');
   background-size: auto;
-  background-repeat: no-repeat;
   font-size: 16px;
 }
 nav div.col {
   margin: 5px;
+  margin-top: 0;
   color: white;
   background-color: #A63634;
   text-align: center;
   margin-bottom: 10px;
+}
+ul {
+  padding: none;
+  list-style: none;
+}
+header li {
+  display: inline-block;
+position: relative;
+left: 75%;
+font-size: 3em;
+}
+header i {
+width: 50px;
 }
 .top-image {
   background-image: url('images/top-image.png');
@@ -24,7 +37,7 @@ nav div.col {
   background-repeat: no-repeat;
   background-size: cover;
   height: 280px;
-  width: 1130px;
+  width: 67.2%;
   margin: 0 auto;
   border: 6pt solid white;
 }
@@ -34,7 +47,7 @@ nav div.col {
   background-repeat: no-repeat;
   background-size: cover;
   height: 270px;
-  width: 1120px;
+  width: 100%;
   opacity: .5;
 }
 .skate-article .col {
@@ -44,16 +57,72 @@ nav div.col {
   text-align: left;
   margin-top: 40px;
   margin-bottom: 40px;
-  height: 200px;
   border: 8pt solid white;
-  padding-bottom: 250px;
+  padding-bottom: 25px;
 }
 h1 {
 font-size: 24px;
 }
-
+.lance-mountain{
+background-image: url('images/sk8er-4.png');
+height: 250px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+border: 4pt solid white;
+color: white;
+text-align: center;
+}
+.rodney-mullan-img {
+background-image: url('images/sk8er-3.png');
+height: 250px;
+background-repeat: no-repeat;
+background-position: 20% 0%;
+background-size: cover;
+border: 4pt solid white;
+color: white;
+text-align: center;
+}
+.steve-caballero {
+background-image: url('images/sk8er-1.png');
+height: 250px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+border: 4pt solid white;
+margin-top:5px;
+margin-bottom: 20px;
+color: white;
+text-align: center;
+}
 .skateboards{
-  transform-origin: center;
-  transform: rotate(90deg);
-
+  height: 280px;
+  width: 67.8%;
+  margin: 0 auto;
+  border: 6pt solid white;
+  background-image: url();
+  margin-bottom: 20px;
+}
+.contact-box {
+height: 200px;
+background-color: white;
+position: absolute;
+left: 16%;
+padding: 10px;
+width: 70%;
+}
+.contact-box article {
+  width: 50%;
+  display: inline-block;
+}
+.contact-box aside {
+  width: 30%;
+  display: inline-block;
+}
+h2 {
+  font-size: 24px;
+  margin-top: 10px;
+}
+.contact-box p {
+  line-height: 20pt;
 }
