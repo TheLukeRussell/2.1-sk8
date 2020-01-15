@@ -130,11 +130,97 @@ margin-bottom: 20px;
 .skateboarders {
   margin-bottom: 10px;
 }
-.skateboarder-name {
+@media only screen and (max-width: 600px) {
+  #skateboarder-name-l {
+    color: black;
+    position: absolute;
+    font-size: 10px;
+    font-weight: 900;
+    left: 0%;
+    text-align: center;
+    bottom: 20%;
+  }
+  #skateboarder-name-r {
+    color: white;
+    position: absolute;
+    font-size: 42px;
+    font-weight: 900;
+    left: 50%;
+    bottom: 20%;
+    text-align:center;
+  }
+  #skateboarder-name-s {
+    color: white;
+    position: absolute;
+    font-size: 44px;
+    font-weight: 900;
+    left: 17%;
+    bottom: 40%;
+    text-align: center;
+  }
+  #skateboarder-name-t {
+    color: white;
+    position: absolute;
+    font-size: 40px;
+    font-weight: 900;
+    left: 0%;
+    bottom: 50%;
+    text-align: center;
+
+  }
+
+}
+#skateboarder-name-l {
   color: white;
+  position: absolute;
+  font-size: 30px;
+  font-weight: 900;
+  left: 15%;
+  text-align: center;
+  bottom: 40%;
+}
+#skateboarder-name-r {
+  color: white;
+  position: absolute;
+  font-size: 30px;
+  font-weight: 900;
+  left: 15%;
+  bottom: 40%;
+  text-align:center;
+}
+#skateboarder-name-s {
+  color: white;
+  position: absolute;
+  font-size: 30px;
+  font-weight: 900;
+  left: 32%;
+  bottom: 40%;
+  text-align: center;
+}
+#skateboarder-name-t {
+  color: white;
+  position: absolute;
+  font-size: 30px;
+  font-weight: 900;
+  left: 12%;
+  bottom: 50%;
+  text-align: center;
 
 }
 
+
+@media only screen and (max-width: 600px) {
+
+#sk8 {
+  transform: inherit;
+  position: absolute;
+  left: 0px;
+  height: 225px;
+  width: 540px;
+  z-index: 3;
+}
+
+}
 .skateboards .col-md {
   height: 300px;
   background-color: white;
