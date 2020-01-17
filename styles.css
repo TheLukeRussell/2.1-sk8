@@ -26,6 +26,7 @@ right: 20px;
   text-align: center;
   font-size: 3em;
   margin-top: 10px;
+
 }
 .icons-social i:not(:last-child) {
   margin-right: 15px;
@@ -52,6 +53,7 @@ nav div .col-md {
   background-color: #A63634;
   text-align: center;
   margin-bottom: 10px;
+  box-shadow: 0px 5px 0px 0px rgba(158,158,158,0.42);
 }
 nav div .col-md:not(:last-child) {
   margin-right: 10px;
@@ -74,6 +76,7 @@ header i {
   background-repeat: no-repeat;
   background-position: 35% 25%;
   border: solid 4pt white;
+  box-shadow: 0px 5px 0px 0px rgba(158,158,158,0.42);
 }
 #carousel .grid {
   opacity: .4;
@@ -96,6 +99,7 @@ header i {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 8pt solid white;
+  box-shadow: 0px 7px 0px 0px rgba(158,158,158,0.42);
 }
 .skate-article .col-md:not(:last-child) {
   margin-right: 10px;
@@ -132,6 +136,7 @@ margin-bottom: 20px;
 .skateboarders img {
   border: 4pt solid white;
   height: 100%;
+  box-shadow: 0px 7px 0px 0px rgba(158,158,158,0.42);
 }
 .skateboarders {
   margin-bottom: 10px;
@@ -219,9 +224,9 @@ margin-bottom: 20px;
 
 #sk8 {
   transform: inherit;
-  position: absolute;
-  left: 0px;
-  height: 200px;
+  position: sticky;
+  left: 10px;
+  height: 150px;
   width: 500px;
   z-index: 3;
 }
@@ -229,8 +234,9 @@ margin-bottom: 20px;
 
 }
 .skateboards .col-md {
-  height: 300px;
+  height: 320px;
   background-color: white;
+  box-shadow: 0px 7px 0px 0px rgba(158,158,158,0.42);
 }
 .skateboards img {
   position: absolute;
@@ -238,20 +244,26 @@ margin-bottom: 20px;
   height: 100px;
   width: 300px;
   z-index: 1;
-  bottom: 100px;
+  bottom: 110px;
   left: -95px;
 }
 
 .contact-box {
   margin-top: 30px;
   background-color: white;
-  padding: 25px;
+  padding: 40px;
   margin-bottom: 15px;
+  box-shadow: 0px 7px 0px 0px rgba(158,158,158,0.42);
 }
 
 .submit {
   color: white;
   background-color: #A63634;
+}
+.form-body p {
+  line-height: 30px;
+  letter-spacing: 1pt;
+  margin-right: 15px;
 }
 h2 {
   font-size: 24px;
@@ -259,7 +271,15 @@ h2 {
 }
 input {
   width: 100%;
-  border: 2pt lightgrey groove;
+  height: 40px;
+  border-left: 2pt lightgrey groove;
+}
+#your-message input {
+  height: 30px;
+  padding-bottom: 60px;
+  padding-top: 15px;
+
+
 }
 .submit {
   width: 40%;
